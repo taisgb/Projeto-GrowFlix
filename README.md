@@ -37,7 +37,7 @@ growflix/
 │
 ├── js/
 │   ├── movies.js          # Array com todos os vídeos
-│   └── script.js          # Lógica para renderizar os cards e modal
+│   └── home.js          # Lógica para renderizar os cards e modal
 │
 ├── index.html             # Página inicial
 └── home.html              # Página com listagem de vídeos
