@@ -1,0 +1,149 @@
+body {
+    background-color: #000000; 
+    font-family: 'Arial', sans-serif;      
+}
+
+header {
+    color: #ffffff;
+}
+
+.texto_header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+main {
+    color: #ffffff; 
+    align-items: center;
+}
+
+.divisoria {
+    border: none;
+    height: 4px;
+    background-color: #bdbbbb;
+    margin: 3rem 0;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%); 
+}
+
+
+.banner-index {
+    background: url("../assets/img/banner-initial.png") center top/cover no-repeat fixed;
+    min-height: 720px;
+}
+
+.banner-home {
+    background: url("../assets/img/growcast-01.png") center top/cover no-repeat;
+    min-height: 720px;
+}
+
+.row-home-growcast {
+    align-items: flex-end;
+    min-height: 680px;
+}
+
+.btn-netflix {
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 20px 35px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.btn-netflix:hover {
+    background-color: #b6060f;
+    color: #ffffff;
+}
+
+.link-growdev {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.link-growdev:hover {
+    color: #ff8534;
+}
+
+.detail-movie {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.detail-movie svg {
+    margin: 10px;
+}
+
+.item-hover {
+    transition: all 0.5s ease-out;
+}
+
+.item-hover:hover {
+    margin-top: -20px;
+    position: absolute;
+    width: 350px;
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+
+.item-hover:hover .detail-movie {
+    display: block;
+}
+
+.detail-hover {
+    margin-top: 20px;
+    position: absolute;
+    width: 350px;
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+
+.modal-content-movie {
+    background-color: transparent;
+}
+
+.modal-header-movie {
+    border-bottom: none;
+}
+
+.col-movie {
+    min-height: 230px;
+}
+
+.accordion-item {
+    border: 5px solid #000000;
+}
+
+.accordion-button {
+    background-color: #303030 !important;
+    color: #ffffff;
+    padding: 25px !important;
+    font-size: 26px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+}
+
+.accordion-button::after {
+    background-image: url("../assets/img/add.svg") !important;
+}
+
+.footer p{
+    color: #303030 !important;
+}
